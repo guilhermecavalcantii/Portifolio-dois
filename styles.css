@@ -183,3 +183,56 @@ body{
 .botao__tres:hover{
     background-color: var(--botao-dois-vermelho-efeito);
 }
+
+@media (max-width: 768px){
+    .container{
+        display:block; 
+    }
+
+    .principal{
+        background-position: top;
+    }
+
+    .container__imagem{
+        width: 98vw;
+        align-items: center;
+    }
+
+    .container__caixa{
+        display: flex;
+        flex-direction: column;
+        margin: 2em 1em 0em 2em ;
+        padding-top: 55%;
+    }
+
+    .secundario{
+        margin: -2em 0em 0em 2em;
+        text-align: center;
+    }
+
+    .imagem__primaria{
+        width: 90vw;
+    }
+
+    .imagem__secundaria{
+        display: flex;
+        flex-direction: row;
+        width: 90vw;
+    }
+    
+    .rodape__lista{
+        display: block;
+        text-align: center;
+        margin: 0em -20em 0em -20em;
+    }
+
+    .rodape__texto{
+        margin: 0em -10em;
+    }
+
+    .rodape__texto2{
+        margin: 0em -7em 8em -6em;
+    }
+
+
+}
